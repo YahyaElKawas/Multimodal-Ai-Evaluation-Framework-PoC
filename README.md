@@ -1,18 +1,43 @@
 ## Video Demo showcasing the PoC
 [Watch the 2-minute PoC Walkthrough here](https://drive.google.com/file/d/1WtIKGQIpj3g1S5EEe8Pj-8myfXZvzRmZ/view?usp=drive_link)
 
-# GSoC Proof of Concepts
+## Multimodal AI & Agent API Evaluation Framework
+This project is a robust, automated evaluation suite built to standardize the benchmarking of Multimodal Large Language Models (LLMs) and AI Agents. As AI systems move toward complex, multi-step agentic workflows and multi-sensory inputs (text, image, audio), this framework provides the tools necessary to ensure quality, cost-efficiency, and consistency.
 
-1. Fork this repo & create a new branch.
-2. Create a new folder inside `2026` with the name `yourname_project_name`.
-3. Add your PoC inside it and send across a PR.
+## Key Features
+Multimodal Input Support: Capable of evaluating model performance across various data formats, including text and image processing.
 
-We have some major updates with respect to the Proof of Concept (PoC) submission.
+Agentic Workflow Assessment: Specifically designed to test the decision-making logic and tool-calling capabilities of AI Agents.
 
-👉 Any PoC that is a new project or is not directly dependent on API Dash source code should be submitted to the repository - https://github.com/foss42/gsoc-poc  
+Automated Metrics: Tracks critical performance indicators such as latency, token usage (cost-analysis), and response accuracy.
 
-👉 PoC containing the developed PoC codes should be sent through this process. You can have a version hosted on personal repo or any website/link, but this way it will be easier to keep track of and review the submitted PoC codes as your PoC link might be buried in your proposal. It will also ease the review process and declutter the main repo PRs.  
+Extensible Architecture: Built with a modular structure that allows for the easy integration of new LLM providers and custom evaluation datasets.
 
-## LICENSE
+Developer-Friendly Tooling: Includes pre-configured linting and type-safety protocols to ensure code reliability.
 
-All PoCs/Experiments submitted to this repository is under Apache 2.0 license.
+## Tech Stack
+This framework utilizes:
+
+Language: React.js, TypeScript for robust, type-safe development.
+
+Build Tool: Vite for a fast, modern development and bundling experience.
+
+Configuration: ESLint and TypeScript configurations are optimized for maintaining high code quality in AI-driven applications.
+
+## How It Works
+Define Evaluation Criteria: Set up specific prompts or datasets for testing.
+
+Connect APIs: Integrate with your multimodal model or agent provider.
+
+Run Evaluation: The framework executes the tests and generates performance reports.
+
+Analyze Results: Review detailed metrics to optimize your AI implementation.
+
+Fiverr Portfolio Highlight
+When listing this on Fiverr, you can emphasize that this project demonstrates your ability to:
+
+Architect complex AI testing environments.
+
+Work with cutting-edge multimodal technologies.
+
+Deliver production-ready TypeScript code with modern tooling like Vite.
