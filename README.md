@@ -43,4 +43,4 @@ Work with cutting-edge multimodal technologies.
 Deliver production-ready TypeScript code with modern tooling like Vite.
 
 ## My project proposal:
-link [here] (https://github.com/YahyaElKawas/apidash/blob/idea-multimodal-eval-framework/doc/proposals/2026/gsoc/yahia_alkawas_multimodal_eval_framework.md)
+link [here](https://github.com/YahyaElKawas/apidash/blob/idea-multimodal-eval-framework/doc/proposals/2026/gsoc/yahia_alkawas_multimodal_eval_framework.md)
